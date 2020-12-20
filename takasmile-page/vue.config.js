@@ -6,7 +6,7 @@ const debug = process.env.NODE_ENV !== "production";
 module.exports = {
   lintOnSave: false,
   publicPath: "/",
-  outputDir: path.resolve(__dirname, "../dist"),
+  outputDir: path.resolve(__dirname, "../docs"),
   configureWebpack: {
     resolve: {
       alias: {
